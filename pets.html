@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="css/reset.css">
+    <link rel = "stylesheet" href="css/style.css">
+    <title>Pets</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+          margin: 0; 
+          padding: 0; 
+          background-color: #ffffff; 
+        }
+      
+        .subheader { 
+            font-family: 'Jost', sans-serif;
+            font-weight: 550; /* Regular */
+
+        }
+        /* Style for the grid container */
+        .grid-container {
+          display: grid; 
+          grid-template-columns: repeat(2, 1fr); 
+          grid-gap: 20px; 
+          padding: 20px; 
+          box-sizing: border-box; 
+        }
+      
+        /* Style for grid items (pictures) */
+        .grid-item {
+          background-color: #fff; 
+          padding: 20px; 
+          box-sizing: border-box; 
+        }
+      
+        h2 {
+          margin-top: 0; 
+        }
+        p {
+          margin-top: 0; 
+          line-height: 1.6; 
+        }
+        .container {
+          font-family: 'Jost', sans-serif;
+        }
+
+      </style>
+</head>
+<body class="container">
+    <a class="skip-link" href='#main'>Skip to content</a>
+
+    <header>
+        <nav class="navbar">
+            <ul>
+              <li><a class= "home" href = "index.html">Home</a></li>
+              <li><a class= "active" href = "pets.html">Pets</a></li>
+              <li><a class= "recipes" href = "recipes.html">Recipes</a></li>
+              <li><a class= "travel" href = "travel.html">Travel</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main class ="pets" id="main">
+        <h1>Pets</h1>
+        <div>
+            <h2 class="subheader">Bacon</h2>
+            <img src="images/bacon.jpg" width = "400" alt="Brown labradoodle wearing colorful lei">
+<br>
+            <p>Bacon Q. Dog is a 9yr old labradoodle. He prefers to spend his days lounging among the three different beds/couches that his family has gifted him. He enjoys a walk or two around the neighborhood, as long as he can pretend that he doesn't see any of the other animals to avoid the embarrassment of not wanting to admit he has no wolf-like skills in chasing them.</p> 
+            <P>At night just as the rest of the family is ready to relax, Bacon suddenly wants to release all of his energy. He will place his toys on a mini couch and frantically drag the couch around, giving his toys "a ride." There is also a lot of rolling. Lots and lots of rolling.</P>
+          
+            <h3>Photo Gallery</h3>
+           
+                <div class = "grid-container">
+                    <div class="grid-item">
+                        <img src="images/bacon_bandana.JPG" width ="200" alt = "Brown labradoodle wearing an orange bandana">
+                    </div>
+                      <div class="grid-item">
+                        <img src="images/bacon_graduation.JPG"  width ="200" alt="Small labradoodle puppy wearing a graduation cap and gown">
+                    </div>
+                      <div class="grid-item">
+                        <img src="images/bacon_agility.mov" alt = "Brown labradoodle demonstrating a sit and stay procedure on video"> 
+            
+                        </div>
+                      <div class="grid-item">
+                        <img src="images/bacon_halloween.JPG"  width ="200" alt="Brown labradoodle wearing a pirate costume">
+                    </div>
+                </div>
+            
+            
+
+            <h3>Likes</h3>
+            <ul>
+                <li>Belly rubs</li>
+                <li>Playing tug-of-war</li>
+                <li>Sneaking onto the couch</li>
+            </ul>
+        
+        </div>
+        
+<br>
+<hr>
+<br>
+        <div> 
+            <h2 class="subheader">Cody</h2>
+           
+            <img src="images/cody.jpg" width = "400" alt="Cody at home">
+            <br>
+
+            <p>Cody is a 7yr old Pembroke Corgi. He was born in Cavalier Farms, Seattle. He prefers to spend his days lounging on the bean bag. Every day, he enjoys two walks around the neighborhood and likes to make friends with other doggie friends. If lucky enough, he might see the cyclist, but he is not allowed to give chase.</p> 
+            <P>Cody loves traveling. He enjoys walking on the beach and taking sun naps. But he hates cold weather. He would like to stay at home lounging by the fireplace in winter.</P>
+            <h3>Photo Gallery</h3>
+
+            <a class= "grid-container" href="grid">
+            <img src="images/cody_play.jpg" width ="200" alt = "Cody lying on the ground making faces">
+            <img src="images/cody_deathvalley.jpg"  width ="200" alt="Cody visiting Badwater Basin in Death Valley National Park">
+            <img src="images/cody_sea.jpg" width ="200" alt = "Cody having a walk by the sea">
+            <img src="images/cody_fireplace.jpg" width ="200" alt = "Cody lounging by the fireplace in winter">
+           </a>
+
+            <h3>Likes</h3>
+            <ul>
+                <li>Traveling</li>
+                <li>Lounging</li>
+                <li>Tennis balls</li>
+            </ul>
+        
+        </div>
+
+
+<br>
+<hr>
+<br>
+        <div> 
+            <h2 class="subheader">Max</h2>
+        
+            <img src="images/husky_fat.jpg" width = "400" alt="Fat husky laying down">
+<br>
+            <p>Max the husky is a 5-year-old bundle of sunshine with a heart as golden as his coat. His fur glistens like freshly polished brass under the warm sunlight, and it's as soft as a cloud to the touch. His expressive, almond-shaped eyes are the color of rich, melted caramel, always sparkling with a playful curiosity that's impossible to resist.</p> 
+            <P>Standing at an impressive 24 inches tall at the shoulder, Max carries himself with an air of gentle dignity that belies his goofy and lovable nature. His well-muscled body is the embodiment of strength and agility, yet his graceful movements make him seem almost weightless as he bounds through life with unbridled enthusiasm. </p>
+            <h3>Photo Gallery</h3>
+
+            <a class= "grid-container" href="grid">
+            <img src="images/husky_baby.jpg" width ="200" alt = "Max the husky as a baby">
+            <img src="images/husky_pool.jpg"  width ="200" alt="Max the husky in the husky_pool">
+            <img src="images/husky_snow.jpg" width ="200" alt = "Max the husky in the snow">
+            <img src="images/husky_fat.jpg" width ="200" alt = "Max the husky when he ate too much">
+</a>
+
+            <h3>Likes</h3>
+            <ul>
+                <li>Fetching</li>
+                <li>Running</li>
+                <li>Playing with other dogs</li>
+            </ul>
+        <!-- Patrick Socha -->
+
+
+        </div>
+    </main>
+    
+</body>
+</html>
